@@ -1,0 +1,36 @@
+
+.image-box {
+    position: relative;
+    width: 100px;
+}
+.box-inner {
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+.image-box:hover .box-inner{
+	visibility: visible;
+	opacity: .8;
+}
+.box-inner button {
+    margin: 17px 38px;
+}
+
+.item-price {
+    width: 50px;
+}
+
+.order{
+    width: 20px;
+}
+.margin-top-100{
+    margin-top: 100px;
+}
+h1.entry-title {
+  margin: 0;
+}
